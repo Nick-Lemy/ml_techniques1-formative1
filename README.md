@@ -1,6 +1,6 @@
 # Milan Mobile Traffic — Time Series Forecasting
 
-ALU ML Techniques I — Formative Assignment | **Nick-Lemy Kayiranga**
+ALU ML Techniques I - Formative Assignment | **Nick-Lemy Kayiranga**
 
 - **Report**: `MLTechniques1_Nick-Lemy_Formative1.pdf`
 - **Video demo**: [Add link here]
