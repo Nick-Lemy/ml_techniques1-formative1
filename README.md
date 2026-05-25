@@ -1,4 +1,4 @@
-# Milan Mobile Traffic — Time Series Forecasting
+# Milan Mobile Traffic - Time Series Forecasting
 
 ALU ML Techniques I - Formative Assignment | **Nick-Lemy Kayiranga**
 
@@ -62,14 +62,14 @@ jupyter lab
 
 Open notebooks in order and select the **"Python 3 (.venv)"** kernel:
 
-1. `01_data_handling.ipynb` — reads all zips, produces `data/processed/milan_traffic_pivot.parquet`
-2. `02_eda.ipynb` — loads parquet, produces all EDA figures
-3. `03_forecasting.ipynb` — trains & evaluates SARIMA, LSTM, TCN models
+1. `01_data_handling.ipynb` - reads all zips, produces `data/processed/milan_traffic_pivot.parquet`
+2. `02_eda.ipynb` - loads parquet, produces all EDA figures
+3. `03_forecasting.ipynb` - trains & evaluates SARIMA, LSTM, TCN models
 
 **Note**: notebook 01 takes ~15–30 minutes depending on hardware. Notebooks 02 and 03 load the pre-built parquet and are much faster.
 
 ## Dataset
 
 - Telecom Italia Mobile (TIM) Milan dataset
-- [Harvard Dataverse — Telecom activity](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGZHFV)
-- [Harvard Dataverse — Grid](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QJWLFU)
+- [Harvard Dataverse - Telecom activity](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGZHFV)
+- [Harvard Dataverse - Grid](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QJWLFU)
