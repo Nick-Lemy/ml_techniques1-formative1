@@ -1,0 +1,11 @@
+Model,Config,seq_len,param1,param2,lr,MAE,MAPE,RMSE,Train_s,Epochs,Reasoning
+LSTM,LSTM-A,72,hidden=64,layers=2,0.001,196.71,104.5,240.51,116.1,35,"Baseline: 12h window, 2-layer 64 units"
+LSTM,LSTM-B,144,hidden=64,layers=2,0.001,169.83,82.6,217.38,197.6,28,Increase window to 1 day: captures full daily cycle
+LSTM,LSTM-C,144,hidden=128,layers=2,0.001,214.73,90.3,247.51,351.5,19,Larger hidden (128): more capacity for complex patterns
+LSTM,LSTM-D,144,hidden=64,layers=1,0.001,146.17,79.7,182.78,62.7,25,Shallower (1 layer): test if depth helps or hurts
+LSTM,LSTM-E,288,hidden=64,layers=2,0.0005,243.75,153.1,274.19,374.0,12,Longer window (2 days) with lower LR for stability
+TCN,TCN-A,144,channels=32,blocks=3,0.001,123.66,38.8,172.01,135.1,20,"Baseline: 32 channels, 3 blocks, kernel=3"
+TCN,TCN-B,144,channels=64,blocks=3,0.001,107.8,35.6,150.93,312.0,22,Double channels (64): richer feature maps
+TCN,TCN-C,144,channels=64,blocks=4,0.001,107.16,35.4,149.97,537.8,29,Add block (4 blocks): wider receptive field
+TCN,TCN-D,144,channels=64,blocks=3,0.001,130.33,78.9,142.98,233.1,15,Larger kernel (5): smoother temporal patterns
+TCN,TCN-E,288,channels=64,blocks=3,0.0005,102.4,44.0,127.57,940.6,33,Longer window (2 days) with lower LR

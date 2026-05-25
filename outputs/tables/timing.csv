@@ -1,0 +1,4 @@
+Model,Avg Train Time (s),Avg Exec Time (s)
+SARIMA,29.2,0.020
+LSTM,162.5,1.600
+TCN,290.4,2.052
