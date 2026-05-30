@@ -2,9 +2,6 @@
 
 ALU ML Techniques I - Formative Assignment | **Nick-Lemy Kayiranga**
 
-- **Report**: `MLTechniques1_Nick-Lemy_Formative1.pdf`
-- **Video demo**: [Add link here]
-
 ## Project Structure
 
 ```
